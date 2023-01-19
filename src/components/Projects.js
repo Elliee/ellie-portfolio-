@@ -10,32 +10,32 @@ const Projects = () => {
         <div className="project-card">
           <img className="project-img" src={profileImage} alt="project"/>
           <p>Project Name</p>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn"><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn right"><a href="https://www.google.com/" target="_blank">Code</a></button>
         </div>
         <div className="project-card">
           <img className="project-img" src={profileImage} alt="project" />
           <p>Project Name</p>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn"><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn right"><a href="https://www.google.com/" target="_blank">Code</a></button>
         </div>
         <div className="project-card">
           <img className="project-img" src={profileImage} alt="project" />
           <p>Project Name</p>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn"><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn right"><a href="https://www.google.com/" target="_blank">Code</a></button>
         </div>
         <div className="project-card">
           <img className="project-img" src={profileImage} alt="project" />
           <p>Project Name</p>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn"><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn right"><a href="https://www.google.com/" target="_blank">Code</a></button>
         </div>
         <div className="project-card">
           <img className="project-img" src={profileImage} alt="project" />
           <p>Project Name</p>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
-          <button><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn"><a href="https://www.google.com/" target="_blank">Code</a></button>
+          <button className="proj__btn right"><a href="https://www.google.com/" target="_blank">Code</a></button>
         </div>
       </div>
     </div>

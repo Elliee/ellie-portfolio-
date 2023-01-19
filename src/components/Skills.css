@@ -1,5 +1,6 @@
 .skills-section {
-  padding: 56px 80px 80px 80px;
+  border: 1px solid green;
+  margin-bottom: 100px;
 }
 .skills-flex {
   display: flex;
@@ -12,37 +13,33 @@
 }
 
 .skills__img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
-span {
+.skill {
   background-color: aliceblue;
   padding: 5px;
   border-radius: 4px;
   margin-right: 10px;
-
 }
 
-span:hover {
-  background-color: purple;
+.skill:hover {
+  background-color: #4361ee;
+  color: white;
 }
 
 
-@media(max-width: 992px) {
-  .skills-section {
-    width: 800px;
+
+@media(max-width:768px) {
+  .skills-flex {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media(max-width:768px) {
-  .skills-section {
-    width: 600px;
-  }
-}
-
-@media(max-width:600px) {
-  .skills-section {
-    width: 500px;
+  .skill-val-flex span {
+    margin-bottom: 8px;
   }
 }

@@ -1,4 +1,4 @@
-import profileImage from '../images/profileImage.jpg'
+import aboutImage from '../images/aboutImage.jpg'
 import './About.css'
 const About = () => {
   return (
@@ -7,16 +7,14 @@ const About = () => {
       <hr className="section__underline"></hr>
       <div className="about-flex">
         <div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-           when an unknown printer took a galley of type and scrambled it to make a type
-           specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-             publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>I recently decided to change careers and venture into Software Development after teaching myself to code during the pandemic. Prior to this, I was working in tech within Sales/Customer success and was always fascinated to learn what the engineers did and the projects they worked on.</p>
+          <p>I completed a Web Development bootcamp in 2022 where I learned technical skills such as Ruby on Rails, SQL, HTML, CSS, Javascript, and Bootstrap while building applications for the web. I thoroughly enjoyed the challenge of learning complex topics and being able to apply these skills to build projects with team members.</p>
+          <p>I am a naturally curious person and love to learn new things, and am excited to grow my skills and continue my career journey in Software Development.</p>
+          <p>Outside the world of coding I enjoy staying active by riding my bike and practicing yoga, travel, reading books, cooking and good coffee.</p>
+
         </div>
         <div>
-          <img src={profileImage} alt="Ellie Stevens" className="about__img"/>
+          <img src={aboutImage} alt="Ellie Stevens" className="about__img"/>
         </div>
       </div>
     </div>

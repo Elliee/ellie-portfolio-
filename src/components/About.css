@@ -4,15 +4,18 @@
 }
 
 .about-section {
-  background-color: rgb(246, 204, 204);
+  border: 1px solid green;
+  margin-bottom: 100px;
 }
 
 .about__img {
   width: 300px;
   width: 300px;
+  border-radius: 4px;
+  margin-left: 50px;
 }
 
-@media(max-width: 992px) {
+/* @media(max-width: 992px) {
   .about-section {
     width: 800px;
   }
@@ -22,10 +25,17 @@
   .about-section {
     width: 600px;
   }
+} */
+
+@media(max-width:600px) {
+  .about-flex {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media(max-width:600px) {
-  .about-section {
-    width: 500px;
+  .about__img {
+    margin: 0;
   }
 }

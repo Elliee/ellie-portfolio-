@@ -4,6 +4,7 @@
   align-items: center;
   margin-top: 150px;
   margin-bottom: 150px;
+  border: 1px solid green;
 }
 
 .header__top {
@@ -13,7 +14,7 @@
 }
 
 .header__purple {
-  color: rgb(106, 53, 205);
+  color: #4361ee;;
   background-color: white;
   padding: 0;
 }

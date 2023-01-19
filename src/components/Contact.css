@@ -1,6 +1,7 @@
 .contact-section {
   /* width: 1200px;
   margin: 0 auto; */
+  border: 1px solid green;
 }
 
 .contact-flex {
@@ -10,7 +11,7 @@
 
 
 .contact__form {
-  background-color: grey;
+  /* background-color: #4361ee; */
   padding: 20px;
   border-radius: 5px;
 }
@@ -33,7 +34,15 @@ textarea {
 }
 
 .contact__btn {
-  padding: 8px 16px 8px 16px;
+  padding: 8px 24px 8px 24px;
   border-radius: 4px;
   border: none;
+  background: #4361ee;
+  color: white;
+}
+
+@media(max-width:600px) {
+  .contact-flex {
+    flex-direction: column;
+  }
 }
