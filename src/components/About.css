@@ -1,0 +1,31 @@
+.about-flex {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.about-section {
+  background-color: rgb(246, 204, 204);
+}
+
+.about__img {
+  width: 300px;
+  width: 300px;
+}
+
+@media(max-width: 992px) {
+  .about-section {
+    width: 800px;
+  }
+}
+
+@media(max-width:768px) {
+  .about-section {
+    width: 600px;
+  }
+}
+
+@media(max-width:600px) {
+  .about-section {
+    width: 500px;
+  }
+}

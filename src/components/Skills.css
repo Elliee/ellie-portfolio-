@@ -1,0 +1,48 @@
+.skills-section {
+  padding: 56px 80px 80px 80px;
+}
+.skills-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill-val-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__img {
+  width: 400px;
+  height: 400px;
+}
+
+span {
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 10px;
+
+}
+
+span:hover {
+  background-color: purple;
+}
+
+
+@media(max-width: 992px) {
+  .skills-section {
+    width: 800px;
+  }
+}
+
+@media(max-width:768px) {
+  .skills-section {
+    width: 600px;
+  }
+}
+
+@media(max-width:600px) {
+  .skills-section {
+    width: 500px;
+  }
+}

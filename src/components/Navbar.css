@@ -1,0 +1,32 @@
+.nav {
+  background-color: rgb(55, 102, 243);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items:center;
+  width: 100%;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin: 12px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  text-decoration:underline;
+}
+
+.nav h3 {
+  padding: 0px;
+  margin: 0px;
+}
