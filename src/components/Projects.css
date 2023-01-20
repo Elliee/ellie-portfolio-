@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .projects-section {
   background-color: rgb(243, 242, 242);
   width: 100%;
+  padding-top: 24px;
 }
 
 .project-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 1px solid green;
   margin-bottom: 100px;
 }
 .project-card {
@@ -17,6 +19,12 @@
   background-color: white;
   margin-bottom: 24px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-card p {
+  margin: 0;
+  padding: 5px;
 }
 
 .project-card:hover {
@@ -39,6 +47,10 @@
   border-radius: 4px;
 }
 
+.proj__btn:hover {
+  font-weight: bold;
+}
+
 .proj__btn a {
   color: white;
   text-decoration: none;
@@ -47,7 +59,7 @@
 .right {
   margin-left: 8px;
 }
-@media(max-width: 992px) {
+/* @media(max-width: 992px) {
   .projects-section {
     width: 800px;
   }
@@ -63,4 +75,4 @@
   .projects-section {
     width: 500px;
   }
-}
+} */

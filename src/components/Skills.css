@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .skills-section {
-  border: 1px solid green;
   margin-bottom: 100px;
 }
 .skills-flex {
@@ -15,6 +16,7 @@
 .skills__img {
   width: 350px;
   height: 350px;
+  margin-left: 32px;
 }
 
 .skill {
@@ -22,6 +24,24 @@
   padding: 5px;
   border-radius: 4px;
   margin-right: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+
+.x {
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.skills-flex h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #4361ee;
+  font-size: 20px;
 }
 
 .skill:hover {
@@ -41,5 +61,11 @@
 @media(max-width:768px) {
   .skill-val-flex span {
     margin-bottom: 8px;
+  }
+}
+
+@media(max-width:768px) {
+  .skills__div {
+    padding-top: 50px;
   }
 }

@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .nav {
   background-color: #4361ee;
   color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 20px;
   align-items:center;
   width: 100%;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 100px;
 }
 
 .nav-list {

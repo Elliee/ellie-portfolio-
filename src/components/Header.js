@@ -9,10 +9,11 @@ const Header = () => {
       </div>
         <div>
           <p className="header__top">HI THERE! I'M</p>
-          <h1><span className="header__purple">ELLIE</span>STEVENS</h1>
+          <h1><span className="header__purple">ELLIE</span> STEVENS</h1>
           <p className="header__bottom">A Full stack software developer passionate about solving complex problems and creating
-          simple and intuitive user experiences on the web 👩🏻‍💻
+          simple, intuitive user experiences on the web 👩🏻‍💻
           </p>
+          <a href="somethin" className="resume__btn">Resume</a>
         </div>
     </div>
    );

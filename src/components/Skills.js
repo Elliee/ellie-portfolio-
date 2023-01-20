@@ -1,4 +1,6 @@
 import skillsImage from '../images/skillsImage.png'
+import webDevCert from '../images/webDevCert.pdf'
+import golangCert from '../images/golangCert.pdf'
 import './Skills.css'
 
 const Skills = () => {
@@ -30,12 +32,12 @@ const Skills = () => {
             <span className="skill">Heroku</span>
           </div>
           <h3>Certifications</h3>
-          <a href="www.something.com"><span className="skill">AWS Cloud Practitioner</span></a>
-          <a href="www.something.com"><span className="skill">Web Development</span></a>
-          <a href="www.something.com"><span className="skill">Golang</span></a>
+          <a href="www.something.com" className="x"><span className="skill">AWS Cloud Practitioner</span></a>
+          <a href={webDevCert} download><span className="skill">Web Development</span></a>
+          <a href={golangCert} download><span className="skill">Golang</span></a>
         </div>
         <div>
-          <img src={skillsImage} alt="something" className="skills__img"/>
+          <img src={skillsImage} alt="woman on laptop" className="skills__img"/>
         </div>
       </div>
     </div>
