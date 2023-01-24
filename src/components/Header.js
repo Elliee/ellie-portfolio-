@@ -1,5 +1,7 @@
 import profileImage from '../images/profileImage.jpg'
 import './Header.css'
+import { FaGithubAlt } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -13,7 +15,8 @@ const Header = () => {
           <p className="header__bottom">A Full stack software developer passionate about solving complex problems and creating
           simple, intuitive user experiences on the web 👩🏻‍💻
           </p>
-          <a href="somethin" className="resume__btn">Resume</a>
+        <a href="https://github.com/Elliee" target="_blank" className="header__icon">< FaGithubAlt /></a>
+        <a href="https://www.linkedin.com/in/elliestevens/" target="_blank" className="header__icon">< FaLinkedin /></a>
         </div>
     </div>
    );
