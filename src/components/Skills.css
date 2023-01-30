@@ -28,9 +28,6 @@
   margin-bottom: 8px;
 }
 
-.x {
-  margin-bottom: 8px;
-}
 
 a {
   text-decoration: none;
@@ -46,6 +43,10 @@ a {
 
 .skill:hover {
   background-color: #4361ee;
+  color: white;
+}
+
+.skill a:hover  {
   color: white;
 }
 
@@ -67,5 +68,13 @@ a {
 @media(max-width:768px) {
   .skills__div {
     padding-top: 50px;
+  }
+}
+
+@media(max-width:768px) {
+  .skills__img{
+    margin: 0;
+    width: 280px;
+    height: 280px;
   }
 }

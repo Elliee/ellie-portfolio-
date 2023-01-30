@@ -32,12 +32,14 @@ const Skills = () => {
             <span className="skill">Heroku</span>
           </div>
           <h3>Certifications</h3>
-          <a href="www.something.com" className="x"><span className="skill">AWS Cloud Practitioner</span></a>
-          <a href={webDevCert} download><span className="skill">Web Development</span></a>
-          <a href={golangCert} download><span className="skill">Golang</span></a>
+          <div className="skill-val-flex">
+            <span className="skill"><a href={webDevCert} download>Web Development</a></span>
+            <span className="skill"><a href="something">AWS</a></span>
+            <span className="skill"><a href={golangCert} download>Golang</a></span>
+          </div>
         </div>
         <div>
-          <img src={skillsImage} alt="woman on laptop" className="skills__img"/>
+          <img src={skillsImage} alt="woman working on laptop" className="skills__img"/>
         </div>
       </div>
     </div>
