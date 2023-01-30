@@ -6,6 +6,16 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 
 .section__heading {
   text-align: center;
@@ -42,6 +52,7 @@ body {
 
 @media(max-width:600px) {
   .section {
-    width: 400px;
+    width: 370px;
+    padding: 20px;
   }
 }
