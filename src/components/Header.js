@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="header section">
+    <div className="header section" id="home">
       <div>
         <img className="profile-image" src={profileImage} alt="Ellie Stevens Profile" />
       </div>
