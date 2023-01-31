@@ -15,7 +15,9 @@
 }
 
 .header__purple {
-  color: #4361ee;
+  /* color: #4361ee; */
+  /* color: #d90429; */
+  color: #0c63e7;
   background-color: white;
   padding: 0;
 }
@@ -36,14 +38,14 @@ h1 {
 }
 
 .header__icon {
-  color: #4361ee;
+  /* color: #4361ee; */
+  color: #0c63e7;
   margin-right: 12px;
   font-size: 24px;
 }
 
 .header__icon:hover {
-  transition: 0.5s;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: #0659d5;
 }
 
 .profile-image {

@@ -4,8 +4,6 @@
   background-color: rgb(243, 242, 242);
   width: 100%;
   padding-top: 24px;
-  /* z-index: -1;
-  position:fixed; */
 
 }
 
@@ -34,7 +32,7 @@
   transition: all 0.2s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   border: 1px solid #cccccc;
-  padding: 8px;
+  transform: scale(1.025);
 }
 
 .project-img {
@@ -43,14 +41,14 @@
 }
 
 .proj__btn {
-  color: white;
-  background-color: #4361ee;
+  background-color: #0c63e7;
   border: none;
-  padding: 4px;
-  border-radius: 4px;
+  padding: 8px;
+  border-radius: 8px;
 }
 
 .proj__btn:hover {
+  color: #0659d5;
   font-weight: bold;
 }
 
@@ -62,20 +60,3 @@
 .right {
   margin-left: 8px;
 }
-/* @media(max-width: 992px) {
-  .projects-section {
-    width: 800px;
-  }
-}
-
-@media(max-width:768px) {
-  .projects-section {
-    width: 600px;
-  }
-}
-
-@media(max-width:600px) {
-  .projects-section {
-    width: 500px;
-  }
-} */

@@ -1,6 +1,6 @@
 .footer__section {
   background-color: rgb(44, 44, 44);
-  color: #4361ee;
+  color: #0659d5;
   padding: 32px;
   display: flex;
   justify-content: space-evenly;
@@ -15,6 +15,14 @@
   line-height: 1.6;
 }
 
-.footer__icon, .footer__li > li > a {
-  color: #4361ee;
+.footer__li > li > a {
+  color: #0c63e7;
+}
+
+.footer__icon {
+  color: #0c63e7;
+}
+
+.footer__icon, .footer__li>li>a:hover {
+  font-weight: bold;
 }

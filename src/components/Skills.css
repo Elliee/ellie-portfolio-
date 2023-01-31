@@ -37,12 +37,12 @@ a {
 
 .skills-flex h3 {
   font-family: 'Poppins', sans-serif;
-  color: #4361ee;
+  color: #0c63e7;;
   font-size: 20px;
 }
 
 .skill:hover {
-  background-color: #4361ee;
+  background-color: #0659d5;
   color: white;
 }
 
